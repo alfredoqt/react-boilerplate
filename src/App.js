@@ -23,7 +23,6 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello World!</h1>
-        <img src="./logo.png" alt="Logo" />
         <h2>Count: {count}</h2>
         <button onClick={this.decrement}>-</button>
         <button onClick={this.increment}>+</button>
